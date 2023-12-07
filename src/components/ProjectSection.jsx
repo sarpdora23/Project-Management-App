@@ -13,7 +13,7 @@ export default function ProjectSection({opened_project,updateProject,deleteProje
         <div className="h-screen pl-12 pr-20 w-4/5 py-8">
             <div className="flex w-full items-stretch items-end place-content-between text-zinc-600">
                 <div className="w-full">
-                    <h2 className="text-4xl  font-bold">Project Name</h2>
+                    <h2 className="text-4xl  font-bold">{opened_project.name}</h2>
                     <p className="my-4 text-lg text-neutral-400">{opened_project.date}</p>
                     <p className="font-normal mb-5">{opened_project.desc}</p>
                     <hr className="w-full border-zinc-300"></hr>
